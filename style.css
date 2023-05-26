@@ -1,0 +1,144 @@
+*{
+    
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 20px 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color : red;
+}
+.deteail {
+margin-left: 8%;
+margin-top: 15%;
+}
+.deteail h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+span{
+    color: rgb(111, 0, 255);
+}
+.deteail p{
+    color: #080808;
+    line-height: 22px;
+}
+.deteail a{
+    background-color: #080808;
+    padding: 10px,18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0%;
+    border-radius: 5px;
+}
+.imgages {
+    position: absolute;
+    right: 20px; 
+    bottom: 15px; 
+    top: 150px;
+}
+.images{
+    
+    width: 45%;
+    height: 70%;
+    position: absolute;
+    bottom: 0%;
+    right: 100px;
+} 
+.images .shape{
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translateX(-50%);
+    transform: bottom 1s, left 1s;
+}
+.images:hover .shape{
+    bottom: 40px;
+}
+nav p{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.txt ul{
+    text-align: center;
+    height: 130px;
+    position: absolute;
+    right: 50%;
+    bottom: 40%;
+}
+nav p{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+
+   height: 130px;
+    list-style:lower-alpha;
+    margin: 20px 10px;
+
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    bottom: 70%;
+}
+.rtr ul{
+    text-align: center;
+    height: 130px;
+    position: absolute;
+    right: 10%;
+    bottom: 60%;
+}
+.text ul{
+    height: 130px;
+    list-style:lower-alpha;
+    margin: 20px 10px;
+
+    height: 0px;
+    position: absolute;
+    right: 60%;
+    bottom: 70%;
+    line-height: 150%;
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 10px;   
+}
+.helo{
+    height: 0px;
+    list-style:lower-alpha;
+    margin: 20px 10px;
+    position: absolute;
+    right: 50%;
+    bottom: 70%;
+    line-height: 150%;
+}
